@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <section class=" mx-auto">
+        <nav class="bg-gray-800 flex justify-between lg:justify-start items-center">
+            <div class="logo p-2 w-1/6">
+                <img src="https://github.com/marcosrivasr/tailwindcss-website/blob/main/Archivos%20iniciales/img/logo.png?raw=true" width="100" alt="logo de mario bros">
+            </div>
+            <div class="links lg:block hidden w-1/6 md:w-4/6">
+                <ul class="menu flex items-center justify-center gap-5">
+                    <li><a href="" class="text-white block p-5 font-bold hover:text-yellow-500">Home</a></li>
+                    <li><a href="" class="text-white block p-5 font-bold hover:text-yellow-500">Play Together</a></li>
+                    <li><a href="" class="text-white block p-5 font-bold hover:text-yellow-500">Explorer</a></li>
+                    <li><a href="" class="border-4 border-yellow-400 text-white font-bold p-2 rounded-full align-middle transition duration-500 hover:bg-white hover:text-black">Bowser Fury</a></li>
+                    <li><a href="" class="rounded-full bg-red-500 text-white font-bold px-4 py-3 hover:bg-white hover:text-black transition duration-500">Buy Now</a></li>
+                </ul>
+            </div>
+            <div class="block lg:hidden w-1/6 lg:w-4/6">
+                <a href="#" class="text-white block p-5 font-bold hover:text-yellow-500" id="mobile-menu">Menu</a>
+
+                <ul class="mobile-links hidden w-full absolute z-50 left-0 text-center bg-gray-800">
+                    <li><a href="#" class="text-white block p-5 font-bold hover:text-yellow-500">Home</a></li>
+                    <li><a href="#" class="text-white block p-5 font-bold hover:text-yellow-500">Play Together</a></li>
+                    <li><a href="#"class="text-white block p-5 font-bold hover:text-yellow-500">Explore</a></li>
+                    <li><a href="#"class="my-4 inline-block border-4 border-yellow-400 text-white font-bold p-2 rounded-full align-middle transition duration-500 hover:bg-white hover:text-black">Browser Fury</a></li>
+                    <li><a href="#"class="my-4 inline-block rounded-full bg-red-500 text-white font-bold px-4 py-3 hover:bg-white hover:text-black transition duration-500">Buy Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+   </header>
+   <main>
+    <section>
+        <article>
+            <div>
+                
+                <img src="https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_the_super_mario_bros_movie_02_1920x1080.jpg" alt="mario bross wallpapers">
+            </div>
+            <div class="bg-wave-pattern h-6 bg-repeat-x relative -top-2"></div>
+            <div class="bg-wave-pattern-dots text-center p-4 flex md:flex-row flex-col gap-3 justify-center">
+                <a href="#" class="inline-block py-3 px-16 bg-black text-white font-bold border-transparent border-8 text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200">Donwload</a>
+                <a href="#" class="inline-block py-3 px-16 bg-red-500 text-white font-bold border-transparent border-8 text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200">Get Game</a>
+            </div>
+            <div class="bg-wave-pattern bg-repeat-x h-6 relative top-2"></div>
+        </article>
+        <article class="bg-pattern-characters-red  ">
+            <div class="lg:container mx-auto md:flex gap-5 md-w-full p-3">
+                <div class="left  bg-contain bg-top w-5/6 md:w-1/2  mx-auto"></div>
+                <d class="card text-center  2xl:w-5/6 mx-auto  rounded-2xl overflow-hidden xl:w-4/5">
+                
+                    <div class="cover ">
+                        <img src="./img/Super-Mario-Logo-1996.png" alt="">
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="lg:container mx-auto md:flex gap-5 md-w-full p-3 mb-25">
+                <div class="left bg-character-mario bg-no-repeat bg-contain  w-5/6 md:w-1/2  mx-auto"></div>
+                <d class="card text-center bg-white 2xl:w-5/6 mx-auto  rounded-2xl overflow-hidden xl:w-4/5">
+                
+                    <div class="cover bg-black">
+                        <video src="videos/video01.mp4" autoplay loop muted></video>
+                    </div>
+                    <div class="content bg-wave-pattern bg-repeat-x relative -top-3">
+                        <h3 class="font-black text-4xl py-10">GamePlay Mario Bros</h3>
+                        <p class="text-xl">Go game!</p>
+                        <a href="" class="text-2xl my-4 inline-block py-2 px-16 bg-red-500 text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200 ">Play</a>
+                    </div>
+                    <div class="dots flex justify-between p-4">
+                        <div class="dot h-3 w-3 bg-blue-600 rounded-full"></div>
+                        <div class="dot h-3 w-3 bg-blue-600 rounded-full"></div>
+                    </div>
+                </div>
+            </div>
+        
+        </article>
+        <article class="">
+            <div class="bg-wave-pattern h-6 bg-repeat-x relative -top-2 "></div>
+            <div class="flex justify-center">
+                <img src="./img/Super-Mario-Logo-1996.png" width="250" alt="">
+            </div>
+            <div class="bg-wave-pattern bg-repeat-x h-6 relative top-2"></div>
+        </article>
+    </section>
+    
+   </main>
+   <footer class="bg-black py-64">
+    <section class="text-center">
+        <h3 class="text-white">Proyecto con Tailwind</h3>
+        <p class=" text-white">© 2022 Company, Inc</p>
+        <article class="text-center flex justify-evenly ">
+
+        
+            <ul class="flex gap-5">
+              <li class=""><a href="#" class=" text-white">Home</a></li>
+              <li class=""><a href="#" class=" text-white">Features</a></li>
+              <li class=""><a href="#" class=" text-white">Pricing</a></li>
+              <li class=""><a href="#" class=" text-white">FAQs</a></li>
+              <li class=""><a href="#" class=" text-white">About</a></li>
+            </ul>
+        </article>
+        
+    </section>
+   </footer>
+
+   <script>
+    const menuButton = document.querySelector('#mobile-menu');
+
+    menuButton.addEventListener('click', e  => {
+        const menu = document.querySelector('.mobile-links');
+
+        menu.classList.toggle('hidden');
+    });
+</script>
+</body>
+</html>

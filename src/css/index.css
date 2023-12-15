@@ -1,0 +1,11 @@
+
+/* Inserta los estilos bases de tailwind*/
+@tailwind base;
+
+/* Corresponde estilos para componentes ejemplo botones etc*/
+
+@tailwind components;
+
+/* todas las clases de utilidades*/
+
+@tailwind utilities;
